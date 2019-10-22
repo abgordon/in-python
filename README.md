@@ -18,7 +18,7 @@ Some small examples to build intuition:
 - 1 instrument, can't play any section more than 3 times: `47*3`
 - 2 instruments, can't play any section more than 2 times: `47*2*2`
 
-So I think it's just `m*n*47`, `n=num-instruments`,`m=max-repeats`. Given 5 instruments and a max of 3 repeats, it's unlikely that a piece will be played the same way twice, but not _super_ unlikely: `1/(47*5*3)=.0014=.14%`. Of course, once we factor in possible keys and tempos, it gets more unlikely that a piece will be repeated, and once I figure out how capable the libraries are I can maybe add in other stuff like velocity, gradients of effects like reverb or delay, tone effects, making a near-infinite quantity of combinations of the piece.
+So I think it's just `m*n*47`, `n=num-instruments`, `m=max-repeats`. Given 5 instruments and a max of 3 repeats, it's unlikely that a piece will be played the same way twice, but not _super_ unlikely: `1/(47*5*3)=.0014=.14%`. Of course, once we factor in possible keys and tempos, it gets more unlikely that a piece will be repeated, and once I figure out how capable the libraries are I can maybe add in other stuff like velocity, gradients of effects like reverb or delay, tone effects, making a near-infinite quantity of combinations of the piece.
 
 Alternatively, if the max-playthroughs parameter wasn't a thing, you can tune this with a probabilistic approach and assign a percent chance you will move to the next section after a play-through of a given section, and maybe assign a rule that no group can move ahead if any other group is 3 sections behind them. Too lazy to work that out right now.
 
