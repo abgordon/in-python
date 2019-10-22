@@ -8,7 +8,7 @@ The sheet music is simple:
 
 ![music](./in-c-sheet-music.jpg)
 
-This seems like a good candidate for [Algorithmic Compisition](https://en.wikipedia.org/wiki/Algorithmic_composition) - given a few simple parameters, we can produce, with sheet music, a permutation of In C. It's easy to get your head around and doable as a first attempt at this sort of project, will the result of a unique piece each time, or at least nearly every time.
+This seems like a good candidate for [Algorithmic Compisition](https://en.wikipedia.org/wiki/Algorithmic_composition) - given a few simple parameters, we can produce, with sheet music, a permutation of In C. It's easy to get your head around and doable as a first attempt at this sort of project, with the result of a unique piece each time, or at least nearly every time.
 
 As an aside this leads to the obvious question: How many permutations of In C are there? There are 47 sections, and `n` instruments or groups of instruments playing a section at a time. Let's say a grouping of instruments may not be 3 sections ahead or behind any other. And to make this interesting because without this parameter the answer is just "infinity" (not super interesting) because you can play any section as many times as you want, there needs to be a max number of times you can play a given section.
 
