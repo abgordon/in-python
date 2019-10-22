@@ -33,7 +33,7 @@ I am not sure of the capabilities of the python libraries available to manipulat
  - How many times are they allowed to repeat a section?
  - What is the tempo?
  - What is the key?
- - What the effects saturation for each section? Delay, reverb, flanger, autowah, etc etc etc, whatever can be virtualized.
+ - What are the effects saturation for each section? Delay, reverb, flanger, autowah, etc etc etc, whatever can be virtualized.
  - What is the velocity for each note being played?
 
  Almost certainly there is more stuff here to be figured out.
