@@ -12,18 +12,6 @@ The sheet music is simple:
 
 This seems like a good candidate for [Algorithmic Compisition](https://en.wikipedia.org/wiki/Algorithmic_composition) - given a few simple parameters, we can produce, with sheet music, a permutation of In C. It's easy to get your head around and doable as a first attempt at this sort of project, with the result of a unique piece each time, or at least nearly every time.
 
-As an aside this leads to the obvious question: How many permutations of In C are there? There are 47 sections, and `n` instruments or groups of instruments playing a section at a time. Let's say a grouping of instruments may not be 3 sections ahead or behind any other. And to make this interesting because without this parameter the answer is just "infinity" (not super interesting) because you can play any section as many times as you want, there needs to be a max number of times you can play a given section.
-
-Some small examples to build intuition: 
-
-- 1 instrument, can't play any section more than 2 times: `47*2`
-- 1 instrument, can't play any section more than 3 times: `47*3`
-- 2 instruments, can't play any section more than 2 times: `47*2*2`
-
-So I think it's just `m*n*47`, `n=num-instruments`, `m=max-repeats`. Given 5 instruments and a max of 3 repeats, it's unlikely that a piece will be played the same way twice, but not _super_ unlikely: `1/(47*5*3)=.0014=.14%`. Of course, once we factor in possible keys and tempos, it gets more unlikely that a piece will be repeated, and once I figure out how capable the libraries are I can maybe add in other stuff like velocity, gradients of effects like reverb or delay, tone effects, making a near-infinite quantity of combinations of the piece.
-
-Alternatively, if the max-playthroughs parameter wasn't a thing, you can tune this with a probabilistic approach and assign a percent chance you will move to the next section after a play-through of a given section, and maybe assign a rule that no group can move ahead if any other group is 3 sections behind them. Too lazy to work that math out right now. Actually I think that would be the best way to code this. Just thinking aloud here as I have not written anything concrete yet.
-
 ### Disclaimer
 
 I am not sure of the capabilities of the python libraries available to manipulate MIDI sounds, so this may not really be possible with this approach and could all just be fluff and a working project might not happen
