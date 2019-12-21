@@ -1,3 +1,7 @@
+### Progress report
+
+I haven't really done anything with this project but it seems like it will be super fun. No free time and all that
+
 # in-python
 
 An attempt at a Pseudo-random generator for arrangements for Terry Riley's progressive composition "In C", in `python3`, with my lamely-named play on the more popular version of this project, [In CPlusPlus](https://github.com/gregwht/InCplusplus), which is an awesome name, and a way better job than I am likely to do.
