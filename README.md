@@ -6,7 +6,7 @@ I haven't really done anything with this project but it seems like it will be su
 
 An attempt at a Pseudo-random generator for arrangements for Terry Riley's progressive composition "In C", in `python3`, with my lamely-named play on the more popular version of this project, [In CPlusPlus](https://github.com/gregwht/InCplusplus), which is an awesome name, and a way better job than I am likely to do.
 
-My (likely flawed) understanding of In C is that it empowers the musicians playing the piece to choose the arrangement, as opposed to the traditional approach of a conductor dictating the tempo and feel of a piece. The premise is as follows: From the sheet music provided, a section will be repeated until the musicians _choose_ to move on from it. When a group of instruments does this, a different group does not necessarily need to move to the next section, but there is a suggestion to not be more than 2 or 3 sections behind or ahead of any other group. In this way, the piece is played "in the round" likely never being played the same way twice.
+My understanding of In C is that it empowers the musicians playing the piece to choose the arrangement, as opposed to the traditional approach of a conductor dictating the tempo and feel of a piece. The premise is as follows: From the sheet music provided, a section will be repeated until the musicians _choose_ to move on from it. When a group of instruments does this, a different group does not necessarily need to move to the next section, but there is a suggestion to not be more than 2 or 3 sections behind or ahead of any other group. In this way, the piece is played "in the round" likely never being played the same way twice.
 
 The sheet music is simple:
 
